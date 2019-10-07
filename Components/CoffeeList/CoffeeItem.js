@@ -10,7 +10,7 @@ import styles from "./styles";
 
 const CoffeeItem = ({ navigation, cafe }) => {
   const handlePress = () => {
-    navigation.navigate("DetailScreen", { cafeID: cafe.id });
+    navigation.navigate("CoffeeDetailScreen", { cafeID: cafe.id });
   };
   return (
     <ImageBackground

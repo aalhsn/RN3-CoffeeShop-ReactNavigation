@@ -108,7 +108,7 @@ CoffeeDetail.navigationOptions = ({ navigation }) => {
         onPress={() => navigation.navigate("CartScreen")}
         type="FontAwesome"
         name="shopping-cart"
-        style={{ marginRight: 15, color: "white" }}
+        style={{ marginRight: 15, color: "black" }}
       ></Icon>
     )
   };

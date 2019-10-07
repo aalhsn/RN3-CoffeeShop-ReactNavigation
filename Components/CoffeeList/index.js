@@ -25,12 +25,13 @@ const CoffeeList = () => {
 CoffeeList.navigationOptions = ({ navigation }) => {
   return {
     title: "Coffee List",
+    headerLeft: null,
     headerRight: (
       <Icon
         onPress={() => navigation.navigate("CartScreen")}
         type="FontAwesome"
         name="shopping-cart"
-        style={{ marginRight: 15, color: "white" }}
+        style={{ marginRight: 15, color: "black" }}
       ></Icon>
     )
   };
